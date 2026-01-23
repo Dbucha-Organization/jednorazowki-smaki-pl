@@ -438,6 +438,7 @@ h4 {
 }
 
 .ticker-item {
+  position: relative;
   width: 150px;
   height: 150px;
   margin: 0 15px;
@@ -447,6 +448,16 @@ h4 {
   overflow: hidden;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
   transition: transform 0.3s ease;
+}
+.flower-title {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  text-align: center;
+  padding: 5px 0;
+  font-size: 0.9rem;
 }
 
 .ticker-item img {
