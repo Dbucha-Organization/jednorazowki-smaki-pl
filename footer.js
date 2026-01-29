@@ -1,6 +1,6 @@
 
 const city = document.getElementById("city");
-const cont = document.querySelectorAll(".foot-cont-three a");
+const cont = document.querySelectorAll(".foot-cont-three span");
 city.addEventListener("click", toggleCont);
 function toggleCont() {
   city.classList.toggle("active");
@@ -11,5 +11,5 @@ function toggleCont() {
 
 const yearSpan = document.querySelector('#year');
 if (yearSpan) {
-    yearSpan.innerText = new Date().getFullYear();
+  yearSpan.innerText = new Date().getFullYear();
 }
